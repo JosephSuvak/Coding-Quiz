@@ -16,6 +16,8 @@ startQuizAttempt.addEventListener("click", takeQuiz)
 var userScore = 0;
 var timeLeft = 75;
 var rightWrongTimer = 3;
+var directToHighScore = document.querySelector('#high-score-detail')
+directToHighScore.addEventListener("click", restartGameOrReset())
 
 //Countdowns
 function countdown() {
