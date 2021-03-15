@@ -15,16 +15,16 @@ https://github.com/JosephSuvak/Coding-Quiz (Links to repository.)
 **Screenshot (Snagit Panoramic Picture not to proper scale - due to browser limitations):**
 
 ### Start
-![start](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/multimedia/start.jpg"Start")
+![start](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/multimedia/start.jpg "Start")
 
 ### Displays questions [Q2]
-![question](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/question.jpg "Q2-Question")
+![question](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/question.jpg "Question")
 
 ### Displays questions [Q4]
-![another-question](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/new-question.jpg "New-Question-Q4")
+![another-question](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/new-question.jpg "Q4")
 
 ### Final Score
-![final-score](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/final-score.jpg "Final -Score")
+![final-score](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/final-score.jpg "Final-Score")
 
 ### Console
 ![console](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/console.jpg "Console")
