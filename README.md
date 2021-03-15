@@ -15,7 +15,7 @@ https://github.com/JosephSuvak/Coding-Quiz (Links to repository.)
 **Screenshot (Snagit Panoramic Picture not to proper scale - due to browser limitations):**
 
 ### Start
-![start](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/multimedia/start.jpg "Start")
+![start](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/start.jpg "Start")
 
 ### Displays questions [Q2]
 ![question](https://raw.githubusercontent.com/JosephSuvak/Coding-Quiz/main/assets/mutlimedia/question.jpg "Question")
