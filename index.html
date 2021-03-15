@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+    <Title>Coding Challenge</Title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#view-high-scores">View High Scores</a>
+        <p style="display: inline;">Time Left:<p id="countdown"></p></p>
+    </header>
+
+        <div class="brandingCSS" id="startingScreen">
+            <!--brandingCSS to be created to consolidate entity branding on the Quiz-->
+            <h1>Coding Quiz Challenge</h1>
+            <p style="display: inline;">Try to answer the following code-related questions within the time limit.
+                <br>Keep in mind that incorrect answers will penalize your score/time
+                <br> by ten seconds
+            </p>
+            <br><br>
+            <button id="startQuiz">Start Quiz</button>
+        </div>
+
+    <div class="questionList">
+
+        <div class="brandingCSS" id="Question1">
+            <h1>Commonly used data types DO Not Include</h1>
+            <ul>
+                <li><button id="stringsQ1">1. strings</button></li>
+                <li><button id="booleansQ1">2. booleans</button></li>
+                <li><button id="alertsQ1">3. alerts</button></li>
+                <li><button id="numbersQ1">4. numbers</button></li>
+            </ul>
+        </div>
+
+        <div class="brandingCSS" id="Question2">
+            <h1>Arrays in JavaScript can be used to store ______________.</h1>
+            <ul>
+                <li><button id="stringsQ2">1. numbers and strings</button></li>
+                <li><button id="arraysQ2">2. other arrays</button></li>
+                <li><button id="booleansQ2">3. booleans</button></li>
+                <li><button id="aboveQ2">4. all of the above</button></li>
+            </ul>
+        </div>
+
+        <div class="brandingCSS" id="Question3">
+            <h1>A very useful tool used furing development and debugging for printing content to the debugger is:</h1>
+            <ul>
+                <li><button id="javascriptQ3">1. Javascript</button></li>
+                <li><button id="terminalQ3">2. terminal/bash</button></li>
+                <li><button id="loopsQ3">3. for loops</button></li>
+                <li><button id="consoleQ3">4. console.log</button></li>
+            </ul>
+        </div>
+
+        <div class="brandingCSS" id="Question4">
+            <h1>The condition in an if/else statement is enclosed with _______.</h1>
+            <ul>
+                <li><button id="quotesQ4">1. Quotes</button></li>
+                <li><button id="curlyQ4">2. curly brackets</button></li>
+                <li><button id="parenthesisQ4">3. parenthesis</button></li>
+                <li><button id="squareQ4">4. square brackets</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <article class="rightWrong">
+        <section id="wrong">
+            <p>_______________________________________________________________________________________________</p>
+            <h3>Ding Dong You're Wrong!</h3>
+        </section>
+        <section id="correct">
+            <p>_______________________________________________________________________________________________</p>
+            <h3>Winner Winner Chicken Dinner; You're Correct!</h3>
+        </section>
+    </article>
+
+    <article id="enterHighScores">
+
+        <section class="brandingCSS" id="enterName">
+            <h1>All Done!</h1>
+            <p id="finalScore">Your final score is: <p id="finalScoreDisplay"></p></p>
+            <br>
+            <form>
+                <label for="playerName">Enter your name:</label>
+                <input type="text" id="playerName" name="playerName">
+                <input type="Submit" id="submitName" value="Submit">
+            </form>
+        </section>
+
+        <section class="brandingCSS" id="view-high-scores">
+            <button id="go-Back">Go Back</button>
+            <button id="clearAll">Clear High Scores</button>
+        </section>
+
+
+    </article>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

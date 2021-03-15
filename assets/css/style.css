@@ -1,0 +1,134 @@
+.brandingCSS{
+    text-align: center;
+}
+.brandingCSS ul {
+    list-style-type: none;
+}
+
+#startingScreen {
+    --display: block;
+}
+
+/* Questions*/
+.questionList{
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+#Question1 {
+    display: none;
+    /* Needs to be Flex */
+}
+
+#Question2 {
+    display: none;
+    /* Needs to be Flex */
+}
+
+#Question3 {
+   display: none;
+    /* Needs to be Flex */
+}
+
+#Question4 {
+    display: none;
+    /* Needs to be Flex */
+}
+
+
+.rightWrong {
+    color: darkgrey;
+    text-align: center;
+    display: none;
+}
+
+/*Header*/
+
+.header {
+    display: inline;
+}
+
+.header a{
+    color: rgb(163, 85, 163);
+    margin: 45px 75px 34px 0px;
+    padding: 6px 62px 20px 54px;
+    width: 50%;
+}
+
+.header p {
+    display: inherit;
+    margin: 19px 0px 19px 0px;
+    padding: 4px 0px 2px 900px;
+    width: 25%;
+}
+
+#countdown {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Body */
+
+body {
+    background-color: rgb(240, 235, 235);
+}
+
+body button {
+    background-color: rgb(70, 8, 128);
+    color: azure;
+    border-radius: 5px;
+    margin: 5px 15px 18px 18px;
+    padding: 7px 12px 3px 11px;
+}
+
+body button:hover {
+    background-color: darkorchid;
+    color: azure;
+    border-radius: 5px;
+    margin: 5px 15px 18px 18px;
+    padding: 7px 12px 3px 11px;
+}
+
+/* Final Score */ 
+#enter {
+    display: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#enterName {
+    display: none;
+    text-align: center;
+    /*Needs to be block after appear */
+}
+#view-high-scores {
+    display: none;
+    /* Line 94 */
+}
+
+#enterName {
+    font-weight: bolder;
+}
+
+/* Form */
+#playerName {
+background-color: rgb(196, 157, 233);
+}
+
+#submitName {
+    background-color: rgb(70, 8, 128);
+    color: azure;
+    border-radius: 5px;
+    margin: 5px 15px 18px 18px;
+    padding: 7px 12px 3px 11px;
+}
+
+#submitName:hover {
+    background-color: darkorchid;
+    color: azure;
+    border-radius: 5px;
+    margin: 5px 15px 18px 18px;
+    padding: 7px 12px 3px 11px;
+}
